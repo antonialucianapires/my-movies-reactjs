@@ -14,8 +14,12 @@ li {
     background-color: #fff;
     padding: 10px;
     width: 200px;
-    color: black;
 
+}
+
+.movieLink {
+    color: #6959CD;
+    font-weight: bold;
 }
 
 img {
