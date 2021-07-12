@@ -4,7 +4,7 @@ import {MovieItem} from './MovieItem'
 export const MoviesList = ({movies}) => (
     <section>
         <MovieItemStyled>
-           {movies.map(m => <MovieItem movie={m} />)}
+            {movies.map(m => <MovieItem id={m.id} title={m.title} />)}
         </MovieItemStyled>
     </section>
 );
