@@ -7,4 +7,5 @@ export const MoviesContainer = styled.section`
 	margin: 0 auto;
     border-radius: 5px;
     position: relative;
+    color: #fff;
 `

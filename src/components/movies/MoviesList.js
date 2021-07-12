@@ -1,4 +1,4 @@
-import {MovieItemStyled } from '../styles/movies/MovieItemStyled';
+import {MovieItemStyled } from '../../styles/movies/MovieItemStyled';
 import {MovieItem} from './MovieItem'
 
 export const MoviesList = ({movies}) => (

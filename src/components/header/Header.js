@@ -1,5 +1,5 @@
-import { Brand } from "../styles/header/Brand";
-import { HeaderContainer } from "../styles/header/HeaderContainer";
+import { Brand } from "../../styles/header/Brand";
+import { HeaderContainer } from "../../styles/header/HeaderContainer";
 import { MainMenu } from "./MainMenu";
 
 export const Header = () =>  (

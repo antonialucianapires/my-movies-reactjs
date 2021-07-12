@@ -8,7 +8,7 @@ ul {
     display: flex;
 }
 
-li {
+.linkItem {
     display: inline-blovk;
     margin-right: 10px;
     color: #6959CD;

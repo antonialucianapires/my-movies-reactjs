@@ -14,6 +14,7 @@ li {
     background-color: #fff;
     padding: 10px;
     width: 200px;
+    color: black;
 
 }
 
