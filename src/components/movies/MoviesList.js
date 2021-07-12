@@ -1,9 +1,10 @@
-import { MovieItem } from "./MovieItem";
+import {MovieItemStyled } from '../styles/movies/MovieItemStyled';
+import {MovieItem} from './MovieItem'
 
 export const MoviesList = ({movies}) => (
     <section>
-        <ul>
-           {movies.map(m => <MovieItem title={m.title} />)}
-        </ul>
+        <MovieItemStyled>
+           {movies.map(m => <MovieItem movie={m} />)}
+        </MovieItemStyled>
     </section>
 );
